@@ -13,7 +13,6 @@ module.exports = function (app) {
         //#swagger.description = 'Endpoint to get user by id.'
 
     const type = req.query.type
-    const age = req.query.age
 
     /* #swagger.responses[200] = { 
         schema: { $ref: "#/definitions/User" },
